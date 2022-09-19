@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search..." class="search">
+            <button onclick="logOn(this)" class="btn" id="login">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="contentLeft">
+            <div class="content" id="contentTop">
+                <div class="wordInfo">
+                    <h1>ninja</h1>
+                    <h4><em>noun</em></h4>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked!')" class="btn" id="like1">13 Likes</button>
+                </div>
+                <div class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.</div>
+            </div>
+            <div class="content" id="contentBottom">
+                <div class="wordInfo">
+                    <h1>ninja</h1>
+                    <h4><em>noun</em></h4>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked!')"  class="btn" id="like2">37 Likes</button>
+                </div>
+                <div class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.</div>
+            </div>
+        </div>
+        <div class="contentRight">
+            <div class="content" id="addDefBox">
+                <h2>Dojonary is</h2>
+                <h2>defined by <strong>YOU!</strong></h2>
+                <button onclick="removeBtn(this)" class="btn" id="addDefBtn"><strong>Add Definition</strong></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
